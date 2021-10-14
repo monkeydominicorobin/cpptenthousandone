@@ -6,8 +6,14 @@ string fOne()
   return "I am C Plus Plus Function One";
 }
 
+string fTwo()
+{
+  return "I am C Plus Plus Function Two";
+}
+
 int main()
 {
-  cout << fOne();
+  cout << fOne() << endl;
+  cout << fTwo() << endl; 
   return 0;
 }
