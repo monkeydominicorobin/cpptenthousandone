@@ -18,11 +18,18 @@ string fThree()
 
 string fFour()
 {
-  return "I am C Plus Plus Function Four";}
+  return "I am C Plus Plus Function Four";
+}
 
 string fFive()
 {
-  return "I am C Plus Plus Function Five";}
+  return "I am C Plus Plus Function Five";
+}
+
+string fSix()
+{
+  return "I am C Plus Plus Function Six";
+}
 
 int main()
 {
@@ -31,5 +38,6 @@ int main()
   cout << fThree() << endl;
   cout << fFour() << endl;
   cout << fFive() << endl;
+  cout << fSix() << endl;
   return 0;
 }
