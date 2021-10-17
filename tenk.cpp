@@ -55,6 +55,12 @@ string fEleven()
 {
   return "I am C Plus Plus Function Eleven";
 }
+
+string fTwelve()
+{
+  return "I am C Plus Plus Function Twelve";
+}
+
 int main()
 {
   cout << fOne() << endl;
@@ -68,5 +74,6 @@ int main()
   cout << fNine() << endl;
   cout << fTen() << endl;
   cout << fEleven() << endl;
+  cout << fTwelve() << endl;
   return 0;
 }
